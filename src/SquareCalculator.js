@@ -18,10 +18,6 @@ function SquareCalculator() {
     return (
         <>
             <div className="breadcrumbs">
-                <ol>
-                    <li><a href="/">Home</a></li>
-                    <li>Granny Square Calculator</li>
-                </ol>
                 <h2>Granny Square Calculator</h2>
             </div>
             <div className="grannySquareCalculator">
@@ -43,22 +39,13 @@ function SquareCalculator() {
                     </div>
 
                 </div>
-                {/* <div>
-                    <div>
-                        <img src={slide3} width={10} alt="" />
-                    </div>
-                    <div>
-                        <h3>Lets Calculate How Many Squares We Want</h3>
-                        <p>
-                            I will calculate the number of squares you need. Tell me the measurements of the blanket/afghan that you want. Enter in the size of your square into the calculator. This will tell you how many squares you need to complete.
-                        </p>
-                    </div>
-                </div> */}
+
                 <div>
                     <div>
                         <h3>Square Count Calculator</h3>
                         <span>Let's determine how many squares you will need to complete the size you want.</span>
                     </div>
+
                     <div className="container">
                         <h3>Common Afghan Sizes Are As Follows:</h3>
                         <div className="row no-gutters">
@@ -85,7 +72,8 @@ function SquareCalculator() {
                             </div>
                             <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                                 <div className="count-box">
-                                <FontAwesomeIcon icon={faBed} size="sm" />                                    <span className="custom-counter">Double</span>
+                                <FontAwesomeIcon icon={faBed} size="sm" />
+                                <span className="custom-counter">Double</span>
                                     <p><strong>54" x 75"</strong></p>
                                 </div>
                             </div>
@@ -106,10 +94,6 @@ function SquareCalculator() {
                         </div>
                     </div>
 
-                    {/* <div>
-                        <h3>Common Afghan Sizes Are As Follows:</h3>
-                        <h5>Crib 36" x 54", Baby Afghan 40" x 40", Twin 39" x 75", Double 54" x 75", Queen 60" x 80", King 76" x 80". These sizes don't include drape over the edges of the top of the mattress.</h5>
-                    </div> */}
                     <div>
                         <label>How wide do you want your afghan to be? Please state to the nearest inch.</label>
                         <div>
