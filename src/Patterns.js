@@ -2,7 +2,7 @@ import React from 'react'
 
 function patterns() {
     return (
-        <div>patterns</div>
+        <div>COMING SOON</div>
     )
 }
 
